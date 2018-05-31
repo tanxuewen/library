@@ -1,4 +1,4 @@
-package com.sf.bluetooth.utils;
+package com.work.library.bluetooth.utils;
 
 /**
  * 作者: Sunshine

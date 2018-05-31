@@ -1,10 +1,9 @@
-package com.sf.bluetooth.classic
+package com.work.library.bluetooth.classic
 
 import android.bluetooth.BluetoothAdapter
 import android.bluetooth.BluetoothDevice
 import android.bluetooth.BluetoothSocket
 import android.util.Log
-import com.sf.bluetooth.utils.HexUtils
 import java.io.IOException
 import java.io.InputStream
 import java.io.OutputStream

@@ -1,4 +1,4 @@
-package com.sf.bluetooth.classic
+package com.work.library.bluetooth.classic
 
 /**
  * <p>作者：01140782</p>

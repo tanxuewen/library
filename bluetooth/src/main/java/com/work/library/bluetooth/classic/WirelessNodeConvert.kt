@@ -1,7 +1,5 @@
-package com.sf.bluetooth.classic
+package com.work.library.bluetooth.classic
 
-import android.util.Log
-import com.sf.bluetooth.utils.HexUtils
 import java.io.InputStream
 
 /**

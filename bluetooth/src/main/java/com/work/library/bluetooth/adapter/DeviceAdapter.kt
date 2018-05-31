@@ -1,9 +1,9 @@
-package com.sf.bluetooth.adapter
+package com.work.library.bluetooth.adapter
 
 import android.content.Context
 import android.view.View
 import com.sf.bluetooth.R
-import com.sf.bluetooth.modle.DeviceInfo
+import com.work.library.bluetooth.modle.DeviceInfo
 
 /**
  * <p>作者：01140782</p>

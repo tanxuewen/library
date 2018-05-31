@@ -1,4 +1,4 @@
-package com.sf.bluetooth.classic
+package com.work.library.bluetooth.classic
 
 import java.io.InputStream
 

@@ -1,4 +1,4 @@
-package com.sf.bluetooth.modle
+package com.work.library.bluetooth.modle
 
 /**
  * <p>作者：01140782</p>
