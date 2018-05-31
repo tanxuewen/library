@@ -41,6 +41,7 @@ class LeDeviceListActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_devicelist)
+        setSupportActionBar(toolbar)
         bluetoothAdapter = BluetoothAdapter.getDefaultAdapter()
 
         deviceAdapter = DeviceAdapter(this, deviceList)
