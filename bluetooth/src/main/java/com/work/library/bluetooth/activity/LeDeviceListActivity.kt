@@ -14,7 +14,7 @@ import android.support.v7.widget.LinearLayoutManager
 import android.view.Menu
 import android.view.MenuItem
 import android.view.View
-import com.sf.bluetooth.R
+import com.work.library.bluetooth.R
 import com.work.library.bluetooth.adapter.DeviceAdapter
 import com.work.library.bluetooth.adapter.OnRvItemClickListener
 import com.work.library.bluetooth.modle.DeviceInfo
@@ -59,7 +59,7 @@ class LeDeviceListActivity : AppCompatActivity() {
         device_rcv.addItemDecoration(DividerItemDecoration(this, DividerItemDecoration.VERTICAL))
         device_rcv.adapter = deviceAdapter
 
-//        bluetoothAdapter?.bluetoothLeScanner?.startScan(callback)
+        bluetoothAdapter?.bluetoothLeScanner?.startScan(callback)
     }
 
     var callback = object : ScanCallback() {

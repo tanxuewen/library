@@ -16,7 +16,7 @@ import android.support.v7.widget.LinearLayoutManager
 import android.view.Menu
 import android.view.MenuItem
 import android.view.View
-import com.sf.bluetooth.R
+import com.work.library.bluetooth.R
 import com.work.library.bluetooth.adapter.DeviceAdapter
 import com.work.library.bluetooth.adapter.OnRvItemClickListener
 import com.work.library.bluetooth.modle.DeviceInfo
@@ -64,6 +64,8 @@ class ClassicDeviceListActivity : AppCompatActivity() {
         filter.addAction(BluetoothDevice.ACTION_FOUND)
         filter.addAction(BluetoothAdapter.ACTION_DISCOVERY_FINISHED)
         registerReceiver(mReceiver, filter)
+
+        doDiscovery(true)
     }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {

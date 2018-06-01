@@ -2,7 +2,7 @@ package com.work.library.bluetooth.adapter
 
 import android.content.Context
 import android.view.View
-import com.sf.bluetooth.R
+import com.work.library.bluetooth.R
 import com.work.library.bluetooth.modle.DeviceInfo
 
 /**
